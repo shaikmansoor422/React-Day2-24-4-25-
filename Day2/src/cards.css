@@ -1,0 +1,31 @@
+#frontend_container, #backend_container, #database_container{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#html,#css,#js,#rct,#python,#java,#php,#node, #mysql, #mongodb, #postgresql, #oracle{
+    width: 240px;
+    z-index: 5;
+    align-content: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 2.20);
+    z-index: -2;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;         
+    justify-content: center;    
+    text-align: center;          
+    padding: 20px;               
+    height: 200px;  
+    border-radius: 20px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    z-index: 10;
+}

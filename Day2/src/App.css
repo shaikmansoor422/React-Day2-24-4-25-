@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#bg_img{
+    background: url("./assets/BG_img.jpg") center center / cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+
+}
+
+#nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding:15px 5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 5px;
+    /* filter: blur(5px); */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.20);
+    z-index: -2;
+    color: white;
+}
+
+#logo{
+    font-size:30px ;
+    font-weight: bolder;
+    z-index: 5;
+}
+
+#info_container{
+    display: flex;
+    gap: 10px;
+
+}
+
+#frontend_container{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#html,#css,#js,#rct{
+    width: 240px;
+    z-index: 5;
+    align-content: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 2.20);
+    z-index: -2;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;         
+    justify-content: center;    
+    text-align: center;          
+    padding: 20px;               
+    height: 200px;  
+    border-radius: 20px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    z-index: 10;
+}
+#frontend_container > h3{
+    margin: auto;
+}
